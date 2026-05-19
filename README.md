@@ -1,15 +1,18 @@
 # Cods
-This repository is for saving Python code examples as plain text files.
+This repository contains Python code examples and generated figure output.
 
 ## How to use
 - Open any file in the `python_code/` folder.
-- Copy the code to a Python-capable editor or platform.
-- Save it with a `.py` extension if you want to run it locally.
-- Run it using `python filename.py`.
+- Run the Python script using a Python-capable environment.
+- Output plots are stored in the `figures/` folder.
 
-## Where to run the code
-- You can run the code on a GitHub-compatible platform.
-- Or copy the code and run it on your local engine after installing the required packages.
+## Running code locally
+```bash
+cd /workspaces/Cods
+python "python_code/1.4 code.py"
+```
+
+Use quotes around filenames with spaces.
 
 ## Required packages
 - `numpy`
@@ -22,7 +25,7 @@ Install the packages with:
 pip install numpy matplotlib scipy
 ```
 
-## Available files
-- `python_code/hello_world.txt` — simple Hello World example
-- `python_code/fibonacci_sequence.txt` — generate a Fibonacci sequence
-- `python_code/prime_check.txt` — check whether a number is prime
+## Project structure
+- `python_code/` — Python scripts
+- `figures/` — saved plot images
+- `.gitignore` — ignored workspace folders and cache files
